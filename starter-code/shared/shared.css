@@ -55,8 +55,8 @@ opacity: 0;
     position: absolute;
     right: 0;
     top: 0;
-    background-color: rgba(255, 255, 255, .3);
-    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, .5);
+    backdrop-filter: blur(2rem);
     padding: 90px 15px 0;
     margin-top: 0;
     transform: translateX(100%);
@@ -78,8 +78,8 @@ ul.change{
 .nav-ul a{
     color: white;
     text-decoration: none;
-    font-size: 1.7rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 600;
     letter-spacing: 3px;
     cursor: pointer;
 
