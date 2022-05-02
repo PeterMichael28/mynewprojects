@@ -155,6 +155,7 @@ body{
     .sec-image{
         width: 300px;
         height: 300px;
+        margin-top: 3rem;
     }
     .bottom-section{
         width: 40%;
