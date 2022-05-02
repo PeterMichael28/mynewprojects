@@ -14,7 +14,7 @@
     box-sizing: border-box;
 }
 #body{
-    background: url("../assets/home/background-home-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+    background: url("starter-code/assets/home/background-home-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
 }
 
 
@@ -98,7 +98,7 @@
 
 @media only screen and (min-width:560px){
     #body{
-        background: url("../assets/home/background-home-tablet.jpg") center/cover no-repeat rgba(var(--clr-dark));
+        background: url("starter-code/assets/home/background-home-tablet.jpg") center/cover no-repeat rgba(var(--clr-dark));
         background-position: 50% 25%;
     }
 
@@ -142,7 +142,7 @@
 
 @media only screen and (min-width:950px){
     #body{
-        background: url("../assets/home/background-home-desktop.jpg") no-repeat rgba(var(--clr-dark));
+        background: url("starter-code/assets/home/background-home-desktop.jpg") no-repeat rgba(var(--clr-dark));
         background-position: -1% 50%;
         background-size: cover;
         display: flex;
