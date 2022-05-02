@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;1,100;1,200&family=Bellefair&display=swap');
+
+body{
+    color: white;
+    background: url("../assets/crew/background-crew-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.section{
+    padding: 20px 0 0;
+}
+.crew-img{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255,.2);
+}
+.crew-image{
+    width: 250.12px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.btn-grp{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255,.2);
+    transition: .5s ease background-color;
+    cursor: pointer;
+}
+.button.active{
+    background-color: white;
+}
+
+.button:hover,
+.button:focus{
+    background-color: rgba(255, 255, 255,.5);
+}
+
+.texts{
+    margin: 30px auto 0;
+    padding: 0 10px;
+}
+.text-box{
+    text-align: center;
+
+}
+
+.text-box h5{
+    font-family: 'Bellefair', serif;
+    font-size: .9rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255,.5);
+    margin: 20px auto 5px;
+}
+.text-box h2{
+    font-family: 'Bellefair', serif;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: 0px;
+    margin-top:0;
+}
+
+.text-box p{
+    font-size: 1rem;
+    font-family: 'Bellefair', serif;
+    color: rgba(var(--clr-light));
+}
+
+@media only screen and (min-width: 560px){
+    body{
+        color: white;
+        background: url("../assets/crew/background-crew-tablet.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+    }
+    
+
+    .sec-title{
+        padding-left: 2.6rem;
+        padding-top: 2rem;
+        margin-bottom: 0;
+    }
+    .section{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 500px;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+    .texts{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text-box{
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .text-box h5{
+        font-size: 1rem;
+    }
+    .text-box h2{
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+    }
+
+    .text-box p{
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+    .btn-grp{
+        margin-top: 1rem;
+    }
+    .crew-img{
+        margin: 3rem auto 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom:none;
+    }
+    .crew-image{
+        width: 400.12px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (min-width: 950px){
+    body{
+        color: white;
+        background: url("../assets/crew/background-crew-desktop.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+        height: 100vh;
+        overflow: hidden;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    main{
+        height: max-content;
+        margin-bottom: 0;
+        position: relative;
+        top: 5%;
+    }
+    
+    .section{
+        max-width: 1100px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .texts{
+        max-width: 45%;
+        text-align: left;
+        margin-bottom: 9rem;
+    }
+    .text-box{
+        text-align: left;
+    }
+    .btn-grp{
+        display:flex;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .crew-img{
+        margin: 0;
+        width: 45%;
+    }
+    .crew-image{
+        width: 400px;
+        height: 470px;
+    }
+    .sec-title{
+        margin-left: 5rem;
+        padding-top: 0rem;
+        margin-bottom: 0;
+    }
+}
