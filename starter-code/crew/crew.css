@@ -174,7 +174,7 @@ body{
     .btn-grp{
         display:flex;
         justify-content: flex-start;
-        margin: 0;
+        margin: 15px 0 0;
     }
 
     .crew-img{
