@@ -5,13 +5,11 @@ body{
     background: url("../assets/technology/background-technology-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
     margin: 0;
     padding: 0;
-    min-height: 100vh;
 }
 
 .tech-img{
     width: 101%;
     height: 220px;
-    background: url("../assets/technology/image-launch-vehicle-landscape.jpg") center/cover no-repeat;
 }
 .btn-grp{
     margin: 1.5rem auto;
@@ -33,7 +31,7 @@ body{
     border-color: rgba(255, 255, 255, .3);
     transition: .4s ease all;
 }
-.btn-grp a.active{
+.btn-grp a.activ{
     background-color: white;
     color: black;
 }
@@ -47,6 +45,7 @@ body{
 }
 .texts{
     text-align: center;
+    margin-bottom: 1rem;
 }
 .texts h5{
     font-family: 'Bellefair', serif;
@@ -78,6 +77,8 @@ body{
 @media only screen and (min-width: 560px){
     body{
         background: url("../assets/technology/background-technology-tablet.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+        height: auto;
+        overflow: auto;
     }
 
     .tech-text-box{
@@ -87,7 +88,7 @@ body{
 
     .texts{
         max-width: 500px;
-        margin: 0 auto;
+        margin: 0 auto 1rem;
     }
     .sec-title{
         margin: 55px 35px 30px;
@@ -112,10 +113,14 @@ body{
     body{
         background: url("../assets/technology/background-technology-desktop.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
     }
+    /* main{
+        position: relative;
+        top: 15%;
+        bottom: 0;
+    } */
     .tech-img{
-        max-width: 460px;
-        height: 400px;
-        background: url("../assets/technology/image-launch-vehicle-portrait.jpg") center/cover no-repeat;
+        max-width: 500px;
+        height: 440px;
     }
     .tech-section{
         display: flex;
@@ -167,7 +172,7 @@ body{
         color: rgba(var(--clr-light));
     }
     .sec-title{
-        margin-left: 10rem;
+        margin-left: 5rem;
         
         width: 40%;
     }

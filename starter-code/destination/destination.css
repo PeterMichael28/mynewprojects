@@ -12,6 +12,9 @@ body{
     --clr-white: 255, 255, 255;
 }
 
+main{
+    margin-top: 1.5rem;
+}
 /*first section*/
 .top-section{
     text-align: center;
@@ -37,7 +40,7 @@ body{
     letter-spacing: 2px;
 }
 
-.btn-grp a.active{
+.btn-grp .activ{
     border-bottom: 2px solid white;
 }
 .btn-grp a:hover, 
@@ -59,7 +62,7 @@ body{
     margin: 50px auto 30px;
 }
 .bottom-section p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.3;
     color: rgba(var(--clr-light));
     border-bottom: 1px solid rgba(255, 255, 255, .2);
@@ -84,7 +87,7 @@ body{
 .avg-distance h2,
 .travel-time h2{
     font-family: 'Bellefair', serif;
-    font-size: 2.3rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 400;
@@ -94,8 +97,12 @@ body{
 @media only screen and (min-width:560px) {
     body{
         background: url("../assets/destination/background-destination-desktop.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+        overflow-y: auto;
     }
-    
+
+    main{
+        margin-top: 2rem;
+    }
     .top-section{
         padding-left: 2rem;
     }
@@ -109,7 +116,8 @@ body{
 
     .bottom-section{
         max-width: 700px;
-        margin: 0 auto;
+        margin: 0 auto 2rem;
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
     }
     .avg-distance,
     .travel-time{
@@ -128,25 +136,21 @@ body{
     letter-spacing: 1.3px;
     margin: 15px auto 5px;
 }
-.bottom-section p{
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
 }
 
 @media only screen and (min-width:950px) {
 
     body{
         background: url("../assets/destination/background-destination-desktop.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+        /* height: 100%; */
     }
 
     main{
         display: flex;
-        max-width: 1200px;
+        max-width: 1100px;
         align-items: center;
-        justify-content: space-between;
-        margin: 0 auto;
+        margin: auto;
+        height: 80%;
     }
 
     .top-section{
@@ -163,9 +167,10 @@ body{
         margin-top: 3rem;
     }
     .bottom-section{
-        width: 40%;
+        width: 45%;
         text-align: left;
-        margin-top: 4rem;
+        margin-top: 1rem;
+        padding: 0;
     }
     .bottom-section h1{
         font-size: 4rem;
