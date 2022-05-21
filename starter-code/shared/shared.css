@@ -21,7 +21,7 @@ section{
 }
 body{
     overflow-x: hidden;
-   background-color: rgba(var(--clr-dark));
+   background-color: rgb(var(--clr-dark));
 }
 /*mobile nav-bar*/
 /*menu toggle*/
@@ -55,9 +55,12 @@ opacity: 0;
 
 .nav-ul{
     list-style: none;
-    transform: translateX(100%);
+    display: none;
     height: 100vh;
     width: 70%;
+    position: absolute;
+    right: 0;
+    top: 0;
     background-color: rgba(169, 169, 169, 1);
     padding: 90px 15px 0;
     margin-top: 0;
@@ -70,7 +73,7 @@ opacity: 0;
 }
 
 ul.change{
-    transform: translateX(0);
+    display: block;
 }
 
 .nav-ul li{
@@ -221,16 +224,6 @@ ul.change{
         background-color: rgba(255, 255, 255, .3);
     }
 
-    /* .nav-ul::after{
-        content: "";
-        min-width: 60%;
-        height: 2px;
-        position: absolute;
-        top: 25px;
-        right: 96%;
-        background-color: rgba(255, 255, 255, .3);
-    }
-     */
     .nav-ul a{
         font-size: 1.4rem;
         padding-bottom: 11px;

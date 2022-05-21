@@ -2,7 +2,7 @@
 
 body{
     color: white;
-    background: url("../assets/technology/background-technology-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+    background: url("../assets/technology/background-technology-mobile.jpg") bottom/cover no-repeat rgb(var(--clr-dark));
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -66,7 +66,7 @@ body{
 .texts p{
     font-size: 1rem;
     font-family: 'Bellefair', serif;
-    color: rgba(var(--clr-light));
+    color: rgb(var(--clr-light));
 }
 
 .sec-title{
@@ -77,7 +77,7 @@ body{
 
 @media only screen and (min-width: 560px){
     body{
-        background: url("../assets/technology/background-technology-tablet.jpg") center/cover no-repeat rgba(var(--clr-dark));
+        background: url("../assets/technology/background-technology-tablet.jpg") center/cover no-repeat rgb(var(--clr-dark));
         height: auto;
         overflow: auto;
     }
@@ -112,7 +112,7 @@ body{
 
 @media only screen and (min-width: 950px){
     body{
-        background: url("../assets/technology/background-technology-desktop.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+        background: url("../assets/technology/background-technology-desktop.jpg") bottom/cover no-repeat rgb(var(--clr-dark));
         overflow: hidden;
         height: 100%;
     }
@@ -167,7 +167,7 @@ body{
     .texts p{
         font-size: 1rem;
         font-family: 'Bellefair', serif;
-        color: rgba(var(--clr-light));
+        color: rgb(var(--clr-light));
     }
     .sec-title{
         margin-left: 5rem;

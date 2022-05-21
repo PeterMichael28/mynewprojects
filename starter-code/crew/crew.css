@@ -2,7 +2,7 @@
 
 body{
     color: white;
-    background: url("../assets/crew/background-crew-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+    background: url("../assets/crew/background-crew-mobile.jpg") bottom/cover no-repeat rgb(var(--clr-dark));
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -79,13 +79,13 @@ body{
 .text-box p{
     font-size: 1rem;
     font-family: 'Bellefair', serif;
-    color: rgba(var(--clr-light));
+    color: rgb(var(--clr-light));
 }
 
 @media only screen and (min-width: 560px){
     body{
         color: white;
-        background: url("../assets/crew/background-crew-tablet.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+        background: url("../assets/crew/background-crew-tablet.jpg") bottom/cover no-repeat rgb(var(--clr-dark));
         overflow-x: hidden;
     }
     
@@ -143,7 +143,7 @@ body{
 @media only screen and (min-width: 950px){
     body{
         color: white;
-        background: url("../assets/crew/background-crew-desktop.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
+        background: url("../assets/crew/background-crew-desktop.jpg") bottom/cover no-repeat rgb(var(--clr-dark));
         height: 100vh;
         overflow: hidden;
         margin-bottom: 0;

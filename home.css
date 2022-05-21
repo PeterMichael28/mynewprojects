@@ -14,11 +14,11 @@
     box-sizing: border-box;
 }
 #body{
-    background: url("starter-code/assets/home/background-home-mobile.jpg") no-repeat rgba(var(--clr-dark));
+    background: url("starter-code/assets/home/background-home-mobile.jpg") no-repeat rgba(var(--clr-dark),1);
     background-position: 50% 30%;
     background-size: cover;
     height: 100%;
-    overflow-x: hidden;
+    overflow-x: ;
 }
 
 
@@ -36,7 +36,7 @@
     text-transform: uppercase;
     font-size: 1.4rem;
     line-height: 1.4;
-    color: rgba(var(--clr-light));
+    color: rgba(var(--clr-light),1);
     font-family: 'Barlow Condensed', sans-serif;
     letter-spacing: 4px;
 }
@@ -44,7 +44,7 @@
 .main-text h1 span{
     display: block;
     font-size: 5rem;
-    color: rgba(var(--clr-white));
+    color: rgba(var(--clr-white),1);
     font-family: 'Bellefair', serif;
     letter-spacing: 7px;
     margin-bottom: 1rem;
@@ -102,7 +102,7 @@
 
 @media only screen and (min-width:560px){
     #body{
-        background: url("starter-code/assets/home/background-home-tablet.jpg")  no-repeat rgba(var(--clr-dark));
+        background: url("starter-code/assets/home/background-home-tablet.jpg")  no-repeat rgba(var(--clr-dark),1);
         background-position: 50% 10%;
         background-size: cover;
     }
@@ -147,7 +147,7 @@
 
 @media only screen and (min-width:950px){
     #body{
-        background: url("starter-code/assets/home/background-home-desktop.jpg") no-repeat rgba(var(--clr-dark));
+        background: url("starter-code/assets/home/background-home-desktop.jpg") no-repeat rgba(var(--clr-dark),1);
         background-position: -1% 50%;
         background-size: cover;
         display: flex;
