@@ -5,6 +5,7 @@ body{
     background: url("../assets/destination/background-destination-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 :root{
     --clr-dark: 11, 13, 23;

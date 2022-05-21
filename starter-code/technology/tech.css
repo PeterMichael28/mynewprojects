@@ -5,6 +5,7 @@ body{
     background: url("../assets/technology/background-technology-mobile.jpg") bottom/cover no-repeat rgba(var(--clr-dark));
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .tech-img{
