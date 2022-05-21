@@ -154,7 +154,6 @@ body{
         position: relative; 
         bottom: -10%;
         margin-top: 3rem;
-        max-width: 1100px;
     }
     
     .section{
@@ -162,6 +161,7 @@ body{
         /* display: flex; */
         flex-direction: row-reverse;
         align-items: center;
+        margin:0 auto;
     }
 
     .texts{
